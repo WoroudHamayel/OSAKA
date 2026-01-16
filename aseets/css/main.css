@@ -2,6 +2,9 @@
     --primaryColor: #fe206e;
     --mainFont: "Open Sans", sans-serif;
 }
+.text_primary{
+    color: var(--primaryColor);
+}
 body{
     font-family: var(--mainFont);
 }
@@ -11,4 +14,9 @@ body{
 .navbar .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--primaryColor);
 
+}
+.hero{
+   background-image: url(./../img/hero/bg.jpg);
+   background-size: cover ;
+   background-position: center -100px;
 }
