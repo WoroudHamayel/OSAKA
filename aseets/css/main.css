@@ -20,3 +20,6 @@ body{
    background-size: cover ;
    background-position: center -100px;
 }
+.about{
+    background-image: url(./../img/public/light_dot.jpg);
+}
